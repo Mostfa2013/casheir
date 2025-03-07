@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cashier Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Cashier: Scan Items</h1>
+        <input type="text" id="scanCode" placeholder="Enter Item Code">
+        <button onclick="scanItem()">Scan</button>
+        <h2>Available Items</h2>
+        <ul id="itemList"></ul>
+        <h2>Scanned Items</h2>
+        <ul id="scannedItems"></ul>
+        <h2>Total: $<span id="total">0.00</span></h2>
+    </div>
+    <script src="cashier.js"></script>
+</body>
+</html>
